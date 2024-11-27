@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const port = 3005;
+const port = 3000;
 const BookModel = require('./book.model')
 const mongoose = require('mongoose');
 app.use(express.json());
