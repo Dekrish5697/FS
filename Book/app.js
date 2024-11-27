@@ -27,10 +27,10 @@ mongoose.connect('mongodb://localhost:27017/my-db', {
     res.json(result)
   });
 
-  app.get('/books/:id', middleware, (req,res) => {
-    const book = book.find(b => b.id === parseInt(req.params.id));
-    if (!book) return res.status(404).send('Book not found');
-    res.json(result);
+  // app.get('/books/:id', middleware, (req,res) => {
+  //   const book = book.find(b => b.id === parseInt(req.params.id));
+  //   if (!book) return res.status(404).send('Book not found');
+  //   res.json(result);
 
     
-  });
+  // });
